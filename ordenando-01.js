@@ -66,7 +66,7 @@ let sortedName = []
 for(let i = 0; i < sortByName().length; i++){
     sortedName.push(sortByName()[i].nome) //pushes to array with space before, the commas will be add automatically
 } if (i = sortByName()){       //checks if all items was sent to the array, if does, write it
-    document.write(sortedName.join(", ")) // Join fix the comma
+    document.write(sortedName.join(", ")) // Join would fix the comma when necessary, or change the char between
 }
 
 
