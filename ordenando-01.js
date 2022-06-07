@@ -1,5 +1,3 @@
-
-let sbname = document.querySelector('#sbname')
 let arr = [34, 21, 1, 10, 6]
 document.write("Default array: " + arr)
 
