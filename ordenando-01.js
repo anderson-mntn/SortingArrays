@@ -38,7 +38,7 @@ persons.sort(function(a, b){
 })
 document.write("<br> Sort by ascending age: ")
 for(let i = 0; i < persons.length - 1; i++){
-    document.write(persons[i].nome + ", ") //Gets a extra comma problem, the fixed way it's below
+    document.write(persons[i].nome + ", ") //Gets a extra comma problem, to fix it use join()
 } 
 
 //Sorting by names
